@@ -1,0 +1,170 @@
+            <!doctype html>
+
+            <html>
+                
+            <head>
+                
+            <title> Strat Hawk</title> 
+            <link rel="stylesheet" href="styles/style.css">
+                
+            </head>
+                
+            <body>
+
+            <div class="nav">
+                
+                <h1 class="logo">Strat Hawk</h1>
+                <a class="nav-item" href="index.html">Home</a> 
+                <a class="nav-item" href="bookings.html">My Bookings</a>
+                <a class="nav-item" href="destinations.html">Destinations</a>
+                <a class="nav-item" href="login.html">Login</a>
+                <a class="nav-item" href="signup.html">Signup</a>
+                
+            </div>    
+
+            <img class="banner-image" src="images/flight.jpeg.jpg">
+            <div class="shading"></div>
+            <div class="banner-text">The World is yours</div>   
+
+             <div class="search-form-container">   
+                <h2 class="heading">Search Flights</h2>
+                <form action="index.html">
+                    <div class="search-element-container">
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="from" placeholder="From" required>
+                        </div>
+                        
+                         <div class="form-group">
+                            <input type="text" class="form-input" name="to" placeholder="To" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="text" class="form-input" name="travel date" placeholder="Travel date dd/mm/yyyy" required 
+                            pattern="(0[1-9]|[12][0-9]|3[01])[/](0[1-9]|1[012])[/]\d{4}"
+                            title="Date should be in dd/mm/yyyy format">
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-input" name="Class" id="Class">
+                            <option>Economy</option>
+                            <option>Business</option>
+                            <option>First</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <input type="submit" value="Search" class="btn">
+                </form>
+             </div>
+
+<!--
+            <table border="1" cellpadding="10" cellspacing="0">
+
+            <tr>
+            <th>Flight</th>
+            <th>Departure</th>
+            <th>Duration</th>
+            <th>Arrival</th>
+            <th>Cost</th>
+            <th>Book</th>
+            </tr>
+
+            <tr>
+            <td>SH288</td>
+
+            <td>
+                <div>Kolkata(KOL)</div> 
+                <div>05:30 A.M</div>
+                <div>Thur 22 July 2021</div>
+            </td>
+
+            <td>4 hrs 30 min</td>
+
+            <td>
+                <div>Mumbai(MUM)</div>
+                <div>10:00 A.M</div>
+                <div>Thur 22 July 2021</div>
+            </td>
+
+            <td>8000 Rs</td>
+
+            <td><input type="submit" value="Book"></td>
+            </tr>
+
+            <tr>
+            <td>SH504</td>
+
+            <td>
+                <div>Mumbai(MUM)</div>
+                <div>07:15 A.M</div>
+                <div>Sun 25 July 2021</div>
+            </td>
+
+            <td>2 hrs 15 min</td>
+
+            <td>
+                <div>Uttar Pradesh(UP)</div>
+                <div>09:30 A.M</div>
+                <div>Sun 25 July 2021</div>
+            </td>
+
+            <td>5000 Rs</td>
+
+            <td><input type="submit" value="Book"></td>
+            </tr>
+
+            </table>
+
+-->
+                <div class="recommended-flights">
+                    <h2 class="heading-recommended-flights">Recommended Flights</h2>
+                    <div class="flights">
+                        <div class="flight">
+                        <div class="flight-number">SH288</div>
+                        <div class="schedule">
+                            <div class="departure">
+                                <div class="from">Kolkata (KOL)</div>
+                                <div class="departTime">05:30 A.M</div>
+                                <div class="departDate">Thur 22 July 2021</div>
+                            </div>
+                            <div class="duration">4 hrs 30 mins</div>
+                            <div class="arrival">
+                                <div class="to">Mumbai (MUM)</div>
+                                <div class="arriveTime">10:00 A.M</div>
+                                <div class="arriveDate">Thur 22 July 2021</div>
+                            </div>
+                        </div>
+                        <div class="cost">8000 Rs</div>
+                        <form action="bookings.html">
+                            <input type="submit" value="Book" class="btn">
+                        </form>
+                    </div>
+                    
+                    <div class="flight">
+                        <div class="flight-number">SH504</div>
+                        <div class="schedule">
+                            <div class="departure">
+                                <div class="from">Mumbai (MUM)</div>
+                                <div class="departTime">07:15 A.M</div>
+                                <div class="departDate">Thur 25 July 2021</div>
+                            </div>
+                            <div class="duration">2 hrs 15 mins</div>
+                            <div class="arrival">
+                                <div class="to">Uttar Pradesh (UP)</div>
+                                <div class="arriveTime">09:30 A.M</div>
+                                <div class="arriveDate">Thur 25 July 2021</div>
+                            </div>
+                        </div>
+                        <div class="cost">5000 Rs</div>
+                        <form action="bookings.html">
+                            <input type="submit" value="Book" class="btn">
+                        </form>
+                    </div>
+                    
+                </div>
+                </div>
+
+
+            </body>
+                
+            </html>

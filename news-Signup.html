@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html>
+    
+<head>
+    
+    <title>News Signup</title>
+    <link rel="stylesheet" href="Styles/news-grid.css">
+    
+</head>
+
+<body>
+    
+    <div class="header">
+        <h1 class="logo">NEWS</h1>
+        <a class="nav-link" href="#">Signin</a>
+        <a class="nav-link" href="news-Signup.html">Signup</a>
+    </div>
+    
+    <div class="signup-container">
+        <h2 class="heading">Signup</h2>
+            <form method="post" action="https://www.w3schools.com/action_page.php">
+                
+                <div class="form-element-container">
+                    <div class="form-element">
+                    <label for="name"> Name</label>  
+                    <input type="text" placeholder="Enter name" id="name" name="Name">
+                    </div>
+
+                    <div class="form-element">
+                    <label for="email"> Email</label>  
+                    <input type="text" placeholder="Enter email id" id="email" name="Email">
+                </div>
+
+                    <div class="form-element">
+                    <label for="password"> Password</label>  
+                    <input type="password" placeholder="Enter password" id="password" name="Password">
+                    </div>
+
+                    <div class="form-element">
+                    <label for="role"> Role</label>  
+                    <select id="role" name="Role">
+                        <option value="Web">Web Developer</option>
+                        <option value="PS"> Problem Solver</option>
+                        <option value="DA">Data Analyst</option>
+                        <option value="App">App Developer</option>
+                    </select>
+                    </div>
+
+                    <div class="form-element">
+                        <label>Gender</label>
+                        <input type="radio" name="gender" id="male" value="M" checked>
+                        <label class="label-radio" for="male">Male</label>
+        <!--
+                        <input type="radio" name="gender">Female
+                        <input type="radio" name="gender">Transgender
+        -->
+                        <input type="radio" name="gender" id="female" value="F">
+                        <label class="label-radio" for="female">Female</label>
+
+<!--
+                        <input type="radio" name="gender" id="transgender" value="TR">
+                        <label class="label-radio"  for="transgender">Transgender</label>
+-->
+                    </div>
+
+                    <div class="form-element">
+                        <label for="student">I am a Student</label>
+                        <input type="checkbox" id="student" checked name="Student" value="YES">
+                    </div>
+
+                    <div class="form-element">
+                        <label for="date">Date of Birth</label>
+                        <input type="date" id="date" name="DOB" >
+                    </div>
+
+                </div>
+                
+                    <div class="form-element-about">
+                            <label for="about">About Me</label>
+                            <textarea id="about" name="About"></textarea>
+                    </div>
+                    
+                     <input class="form-signup" type="submit" value="Signup">
+                     <input class="form-reset" type="reset" value="Reset">
+                
+        </form>
+    </div>
+    
+    <div class="footer">
+        Copyright 2021
+    </div>
+    
+</body>
+    
+</html>
